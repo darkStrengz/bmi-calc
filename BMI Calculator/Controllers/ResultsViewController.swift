@@ -38,6 +38,5 @@ class ResultsViewController: UIViewController {
     }
     
     
-//there used to be some segue related codes here
 
 }
