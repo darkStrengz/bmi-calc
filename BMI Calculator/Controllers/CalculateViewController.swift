@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  BMI Calculator
-//
-//  Created by Angela Yu on 21/08/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
+
 
 import UIKit
 
@@ -40,8 +34,7 @@ class CalculateViewController: UIViewController {
     @IBAction func weightSliderChanged(_ sender: UISlider) {
         weightValue.text = "\(String(Int(sender.value))) kg"
         
-        //print(Int(sender.value))
-        //print(rounder(number: sender.value, decimalPlaces: "%f"))
+        //no need for print debugs
         
         
     }
